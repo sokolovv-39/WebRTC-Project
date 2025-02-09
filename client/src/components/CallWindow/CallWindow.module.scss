@@ -1,0 +1,43 @@
+.wrapper {
+  .control {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    position: absolute;
+    bottom: 22px;
+    left: 50%;
+    transform: translateX(-50%);
+    button {
+      background-color: blue;
+      border-radius: 50%;
+      border: none;
+      height: 40px;
+      width: 40px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    button:hover {
+      opacity: 0.5;
+    }
+  }
+  .video {
+    .remote {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      height: 491px;
+      background: black;
+    }
+    .local {
+      background: black;
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 174px;
+      cursor: grab;
+    }
+  }
+}

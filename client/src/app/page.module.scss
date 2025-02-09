@@ -1,0 +1,12 @@
+.wrapper {
+  background: linear-gradient(135deg, #ff4e50, #8f3aff, #1e90ff);
+  height: 100vh;
+  overflow: hidden;
+  .title {
+    text-align: center;
+    margin-top: 16px;
+    font-size: 55px;
+    font-family: cursive;
+    color: white;
+  }
+}
